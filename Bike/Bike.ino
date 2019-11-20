@@ -282,34 +282,3 @@ void update_lights(void)
         }
     }
 }
-
-
-#include <stdio.h>
-
-typedef struct Triangle Triangle;
-typedef struct Line Line;
-
-int nNumbers(int nRows)
-{
-	int sum = 0;
-	for (int row = nRows; row > 0; row--)
-	{
-		sum += row;
-	}
-
-	return sum;
-}
-
-struct Triangle
-{
-	int nLines;
-	int val;
-};
-
-int main(int argc, char *argv[]) {
-	int baseSize;
-	scanf
-
-	return(0);
-}
-
